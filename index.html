@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="js-btn btn" data-toggle="modal">Открыть popup</button>
+      <div class="slider-wrapper">
+        <div class="slider owl-carousel owl-theme">
+          <div class="slide">1</div>
+          <!-- /.slide -->
+          <div class="slide">2</div>
+          <!-- /.slide -->
+          <div class="slide">3</div>
+          <!-- /.slide -->
+          <div class="slide">4</div>
+          <!-- /.slide -->
+          <div class="slide">5</div>
+          <!-- /.slide -->
+        </div>
+        <!-- /.slider -->
+        <button class="slider-button slider-button--prev"></button>
+        <button class="slider-button slider-button--next"></button>
+        <!-- /.slider__buttons -->
+      </div>
+      <!-- /.slider-wrapper -->
+      <div class="grid">
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+      </div>
+      <!-- /.grid -->
+      <table>
+        <thead>
+          <tr>
+            <th>Тест</th>
+            <th>Тест</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Общая длина</td>
+            <td>3000 мм</td>
+          </tr>
+          <tr>
+            <td>Высота</td>
+            <td>725 мм</td>
+          </tr>
+          <tr>
+            <td>В стоимость входят:</td>
+            <td>
+              столы, шкафы, цоколь, светопанель, карниз - массив березы;
+              столешница, ручки, сушка - Италия, амортизаторы на дверцы, гиг.
+              поддон в стол-мойку; метабоксы и петли BLUM
+            </td>
+          </tr>
+          <tr>
+            <td>Материал фасадов</td>
+            <td>Рамка - массив березы, филенка - массив березы</td>
+          </tr>
+        </tbody>
+      </table>
+      <section class="accordion">
+        <h2 class="accordion-title">Как быстро я могу запустить сайт?</h2>
+        <p class="accordion-text">
+          При выборе готового решения с типовым функционалом (изменяются только
+          цвета и изображения) - время запуска составит
+          <b>3 рабочих дня.</b> Если вы хотите видоизменять структуру и
+          дорабатывать функционал -
+          <b>10 рабочих дней.</b>
+        </p>
+        <div id="accordion">
+          <h3 class="accordion-item-title">Как быстро я могу запустить сайт?</h3>
+          <div class="accordion-item-text"  >
+            <p>
+              Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест 
+            </p>
+        </div>
+         <h3 class="accordion-item-title">Как получить максимальнуб скидку?</h3>
+          <div class="accordion-item-text">
+            <p>
+             Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест 
+            </p>
+          </div>
+           <h3 class="accordion-item-title">Можно ли дорабатывать сайты?</h3>
+          <div class="accordion-item-text">
+            <p>
+             Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест 
+            </p>
+          </div>
+           <h3 class="accordion-item-title">Предоставляете ли вы доступы к домену и хостингу?</h3>
+          <div class="accordion-item-text">
+            <p>
+              Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест Тест 
+            </p>
+          </div>
+      </section>
+    </div>
+    <!-- /.container -->
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
+      <div class="modal__dialog">
+        <button class="btn-close">
+          <span></span>
+        </button>
+        <form action="#" class="form modal__form">
+          <input
+            type="text"
+            name="name"
+            class="input modal__input"
+            placeholder="Имя"
+          /><input
+            type="tel"
+            name="phone"
+            class="input modal__input"
+            placeholder="Номер телефона"
+          />
+          <input
+            type="email"
+            name="email"
+            class="input modal__input"
+            placeholder="Email"
+          />
+          <input
+            type="checkbox"
+            class="checkbox modal__checkbox"
+            id="checkbox"
+            name="proccesing"
+            value=""
+          />
+          <label for="checkbox">Я согласен на обработку данных</label>
+          <button class="btn modal__btn">Отправить</button>
+          <div class="status-message"></div>
+        </form>
+      </div>
+      <!-- /.modal__dialog -->
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
